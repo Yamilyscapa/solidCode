@@ -7,9 +7,9 @@
 		<a href="/"><img class="block w-20" src={Logo} alt="Solid Code" /></a>
 
 		<ul class="flex place-items-center gap-x-10 text-gray-600">
-			<li class="hover:text-gray-800"><a class="" href="/#">Incio</a></li>
-			<li class="hover:text-gray-800"><a class="" href="/#">Sobre nosotros</a></li>
-			<li class="hover:text-gray-800"><a class="" href="/#">Proyectos</a></li>
+			<li class="hover:text-gray-800 hover:underline"><a class="" href="/#">Incio</a></li>
+			<li class="hover:text-gray-800 hover:underline"><a class="" href="/#">Sobre nosotros</a></li>
+			<li class="hover:text-gray-800 hover:underline"><a class="" href="/#">Proyectos</a></li>
 			<li>
 				<a
 					href="/#"

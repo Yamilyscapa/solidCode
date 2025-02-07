@@ -2,9 +2,13 @@
 	const { title, description, icon }: { title: string; description: string; icon: any } = $props();
 </script>
 
-<div class="h-72 max-w-sm rounded-lg p-10 shadow-md">
-	<div class="titl">
-        <img src={icon} alt="">
+<div
+	class="feature box-border rounded-lg bg-[#f6f7f7] px-10 pb-8 pt-6 transition-transform duration-300
+ease-in-out hover:translate-y-[-5px]"
+>
+	<div class="">
+		<img class="mb-4 box-content w-9 rounded-full bg-blue-700 p-3" src={icon} alt="" />
+		<h3 class="font-heading text-3xl">{title}</h3>
 	</div>
-	<p class="font-poppins">{description}</p>
+	<p class="mt-3 font-poppins text-xs/6 text-gray-600">{description}</p>
 </div>

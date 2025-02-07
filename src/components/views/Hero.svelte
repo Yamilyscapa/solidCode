@@ -1,5 +1,7 @@
 <script lang="ts">
 	import Screenshot from '../../lib/static/default_ss.png';
+	// Components
+	import Link from '../modules/Link.svelte';
 </script>
 
 <div class="hero flex h-[90vh] place-items-center">
@@ -13,16 +15,9 @@
 			</p>
 
 			<div class="hero_btn mt-8">
-				<a
-					href="/#"
-					class="inline-block h-auto rounded-lg border-2 border-blue-700 bg-blue-700 px-6 py-4 text-sm font-medium text-white hover:bg-blue-800"
-					>Agenda una llamada</a
-				>
-				<a
-					href="/#"
-					class=" secondary ml-3 inline-block h-auto rounded-lg border-2 border-blue-700 bg-opacity-30 px-6 py-4 text-sm font-medium text-blue-700 duration-200 ease-in-out hover:bg-blue-700 hover:text-white hover:opacity-80 hover:transition"
-					>Contactanos</a
-				>
+				<Link to="/#">Agenda una llamada</Link>
+				<Link to="/#" secondary>Contactanos</Link>
+
 			</div>
 		</div>
 
