@@ -5,8 +5,6 @@
 		icon,
 		color = '#1D4ED8'
 	}: { title: string; description: string; icon: any; color?: string } = $props();
-	console.log(color);
-	
 </script>
 
 <div
