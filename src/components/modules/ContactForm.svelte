@@ -10,7 +10,7 @@
 	<Input required label="Telefono" type="tel" name="phone" placeholder="000 000 0000" />
 	<Input label="Correo" type="email" name="email" placeholder="john.doe@solidcode.com" />
 
-	<div class="message">
+	<div class="message text-start">
 		<label for="message" class="mb-2 block text-sm font-medium text-gray-900"
 			>Mensaje <span class="text-red-600">*</span></label
 		>

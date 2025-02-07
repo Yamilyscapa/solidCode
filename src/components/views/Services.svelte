@@ -7,10 +7,10 @@
 	// Components
 </script>
 
-<div class="services container row-auto mx-auto grid h-auto w-[65vw]">
+<div class="services container h-auto">
 	<div class="services-text">
 		<h2 class="font-heading text-5xl font-[500] text-center mb-20">Servicios</h2>
-		<div class="features grid grid-cols-2 gap-14 gap-y-8">
+		<div class="features grid grid-rows-3 gap-14 gap-y-8 lg:grid-rows-2 lg:grid-cols-2">
 			<Features
 				title="Desarrollo web"
 				description="Diseñamos y desarrollamos sitios web adaptables y escalables según tus necesidades. Integramos herramientas externas, añadimos funciones como tiendas en línea o membresías y ofrecemos soporte continuo para que tu sitio siempre funcione a la perfección."

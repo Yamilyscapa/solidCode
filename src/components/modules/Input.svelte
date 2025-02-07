@@ -12,7 +12,7 @@
 </script>
 
 <div class="mb-5">
-	<label for={name} class="mb-2 block text-sm font-medium text-gray-900">
+	<label for={name} class="text-start mb-2 block text-sm font-medium text-gray-900">
 		{label}
         {#if required}
             <span class="text-red-600">*</span>

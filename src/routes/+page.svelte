@@ -3,10 +3,10 @@
 	// Views
 	import Hero from '../components/views/Hero.svelte';
 	import Services from '../components/views/Services.svelte';
-	import About from '../components/views/Contact.svelte';
+	import Contact from '../components/views/Contact.svelte';
 </script>
 
-<header class="h-screen">
+<header class="h-auto">
 	<Navbar />
 	<Hero />
 </header>
@@ -15,6 +15,6 @@
 	<Services />
 </section>
 
-<section class="h-auto box-border py-32" id="about">
-	<About />
+<section class="h-auto box-border py-28" id="contact">
+	<Contact />
 </section>
