@@ -21,7 +21,7 @@
 		</div>
 
 		<div
-			class="image-container after:content-[' '] container relative mx-auto mt-5 h-auto w-72 after:absolute after:left-1/2 after:top-1/2 after:z-[-10] after:block after:h-[80vw] after:w-[80vw] after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full sm:w-[50vw] sm:after:h-[50vw] sm:after:w-[50vw] md:w-[425px] lg:w-[650px] lg:after:h-[25vw] lg:after:w-[25vw]"
+			class="image-container after:content-[' '] container relative mx-auto mt-[-30px] h-auto w-72 after:absolute after:left-1/2 after:top-1/2 after:z-[-10] after:block after:h-[80vw] after:w-[80vw] after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full sm:w-[50vw] sm:after:h-[50vw] sm:after:w-[50vw] md:w-[425px] lg:w-[650px] lg:after:h-[25vw] lg:after:w-[25vw]"
 		>
 			<img class="" src={Screenshot} alt="" />
 		</div>
